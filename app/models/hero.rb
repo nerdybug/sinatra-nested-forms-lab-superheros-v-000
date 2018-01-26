@@ -1,7 +1,7 @@
 class Hero
   attr_reader :name, :power, :bio
   @@all_heroes = []
-  
+
   def initialize(details)
     @name = details[:name]
     @power = details[:power]
